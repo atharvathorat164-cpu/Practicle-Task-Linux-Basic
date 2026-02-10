@@ -1,0 +1,9 @@
+SUMM=0.0
+for i in $(cut -d " " -f2 scores.txt)
+do 
+    SUMM=$(echo "scale=2; $SUMM + $i" | bc )
+    echo $SUMM
+done
+COUNT=$(wc -l scores.txt | cut -d " " -f 1)
+MEAN=$(echo "scale=2; $SUMM / $COUNT" | bc)
+echo $MEAN > ~/solution 
