@@ -1,0 +1,45 @@
+pwd                     # show current directory
+pwd -P                  # show physical path (no symlinks)
+
+
+ls                      # list files
+ls -l                   # detailed list
+ls -a                   # include hidden files
+ls -lh                  # human-readable sizes
+ls -R                   # recursive listing
+ls -lt                  # sort by time
+ls -S                   # sort by size
+
+
+cd dir                  # change directory
+cd ..                   # go to parent directory
+cd ~                    # go to home directory
+cd -                    # go to previous directory
+
+
+mkdir dir               # create directory
+mkdir -p a/b/c          # create nested directories
+
+
+rmdir dir               # remove empty directory
+
+
+rm file                 # delete file
+rm -r dir               # delete directory
+rm -rf dir              # force delete (dangerous)
+rm -i file              # confirm before delete
+
+
+cp src dest             # copy file
+cp -r src dest          # copy directory
+cp -v src dest          # verbose copy
+
+
+mv old new              # move/rename file
+mv -i old new           # confirm overwrite
+
+
+touch file              # create empty file / update timestamp
+stat file               # show file details
+file file               # detect file type
+
