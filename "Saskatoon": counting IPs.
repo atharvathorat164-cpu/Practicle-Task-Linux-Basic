@@ -1,0 +1,2 @@
+cut -d ' ' -f 1 /home/admin/access.log | sort | uniq -c | sort | tail -1
+echo "66.249.73.135" > /home/admin/highestip.txt
