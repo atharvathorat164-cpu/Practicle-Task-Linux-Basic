@@ -1,0 +1,3 @@
+lsof -F | grep -rli /var/log/bad.log
+ps -ef | grep badlog.py
+kill -9 593
