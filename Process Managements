@@ -1,0 +1,10 @@
+ps                     # running processes
+ps aux                 # all processes
+ps -ef                 # full process list
+
+top                    # process monitor
+htop                   # better monitor
+
+kill PID               # terminate process
+kill -9 PID            # force kill
+kill -15 PID           # graceful kill
