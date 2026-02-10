@@ -1,0 +1,19 @@
+find . -name file       # find file by name
+find / -type f          # find all files
+find . -size +1G        # find large files
+find . -mtime -1        # files modified today
+
+grep "text" file        # search text in file
+grep -i "text" file     # case-insensitive search
+grep -r "text" dir      # recursive search
+grep -n "text" file     # show line number
+grep -v "text" file     # exclude matching lines
+
+locate file             # fast search using database
+updatedb                # update locate database
+
+wc file                 # count lines/words/chars
+wc -l file              # count lines
+sort file               # sort lines
+sort -r file             # reverse sort
+uniq file               # remove duplicate lines
