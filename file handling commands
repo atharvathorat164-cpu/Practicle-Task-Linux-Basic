@@ -1,0 +1,16 @@
+cat file                # display file content
+cat -n file             # show line numbers
+
+less file               # scroll file safely
+more file               # basic file viewer
+
+head file               # first 10 lines
+head -n 20 file         # first 20 lines
+
+tail file               # last 10 lines
+tail -n 50 file         # last 50 lines
+tail -f log.log         # live log monitoring
+
+nano file               # simple editor
+vim file                # advanced editor
+vi file                 # vim shortcut
